@@ -16,7 +16,7 @@ function NavBar() {
                 <li><NavLink to="/quotes" className="text-white">Quotes</NavLink></li>
                 <li><NavLink to="/resturant" className="text-white hover:text-blue-300">Resturants</NavLink></li>
                 <li><NavLink to="/food" className="text-white hover:text-blue-300">Food</NavLink></li>
-                <li><NavLink to="./contacts" className="text-white hover:text-blue-300">Contact</NavLink></li>
+                <li><NavLink to="./contacts" className="text-white hover:text-blue-300">Contacts</NavLink></li>
             </ul>
             <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-600">Get started</button>
        </div>

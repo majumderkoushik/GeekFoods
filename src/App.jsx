@@ -8,6 +8,7 @@ import Footer from './assets/Footer/Footer'
 import Resturant from './assets/Resturant/Resturant'
 import Foods from './assets/Foods/Foods'
 import RecipeInfo from './assets/Foods/RecipeInfo'
+import Contacts from './assets/NavBar/Contacts/Contacts'
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/quotes' element={<Quotes />} />
         <Route path='/resturant' element={<Resturant />} />
         <Route path='/food' element ={<Foods />} />
+        <Route path='/contacts' element={<Contacts />} />
         
     <Route path='/food/:MealId' element={<RecipeInfo />} />
    

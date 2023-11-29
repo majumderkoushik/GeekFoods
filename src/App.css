@@ -127,3 +127,6 @@ color: slategray
 .c {
   border-radius: 15px;
 }
+.c-box {
+  box-shadow: 5px 5px 5px 5px indianred;
+}
