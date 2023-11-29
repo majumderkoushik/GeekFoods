@@ -15,7 +15,7 @@ const RecipeInfo = () => {
     <>
     {
       (!item)?"":(<>
-      <div className='flex  bg-yellow-500'>
+      <div className='flex  bg-gradient-to-r from-orange-400 to-orange-600'>
         <div className='content flex p-10 flex-col w-1/2'>
           <img src={item.strMealThumb} alt="" className='bg-cover bg-center h-screen c' />
           <div>
@@ -37,7 +37,7 @@ const RecipeInfo = () => {
            </div>
           </div>
         </div>
-        <div className='flex flex-col justify-center items-center  w-full bg-yellow-500 shadow-sm p-6 mb-6 rounded-md'>
+        <div className='flex flex-col justify-center items-center  w-full bg-gradient-to-r from-blue-500 to-blue-700 shadow-sm p-6 mb-6 rounded-md'>
          <h2 className='text-7xl font-600 p-3'>INSTRUCTIONS</h2>
          <h4 className='inst font-400 my-6 '>{item.strInstructions}</h4>
           </div>
@@ -48,4 +48,4 @@ const RecipeInfo = () => {
   )
 }
 
-export default RecipeInfo
+export default RecipeInfo;

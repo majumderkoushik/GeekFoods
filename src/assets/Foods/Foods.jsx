@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer'
 function Foods() {
   return (
     <>
-    <div className=' bg-yellow-400 p-5'>
+    <div className=' bg-indigo-400 p-5'>
     <Meal />     
     </div>
     <Footer />
